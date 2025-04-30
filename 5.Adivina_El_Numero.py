@@ -12,7 +12,7 @@ Intentos = 3
 while Intentos > 0:
     try:
 
-       NumeroU = int(input(f"\nIntenta adivinar el numero, tienes {Intentos} intentos: "))
+       NumeroU = int(input(f"\nIntenta adivinar el numero entre 1 y 10, tienes {Intentos} intentos: "))
 
        if NumeroU > numero_ramdom:
            print("\nEl numero es menor :0")
